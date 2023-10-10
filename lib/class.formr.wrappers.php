@@ -4,7 +4,7 @@ require_once 'wrappers/autoload.php';
 
 class Wrapper extends Formr\Formr
 {
-    use Bootstrap, Bulma;
+    use Bootstrap, Bulma, uiKit3;
 
     public function __construct($instance) {
         $this->formr = $instance;
@@ -49,7 +49,7 @@ class Wrapper extends Formr\Formr
     }
 
     public function default_wrapper($wrapper, $element, $data)
-    {        
+    {
         # this is the default field wrapper; used if a framework is not specified
         
         # enter the name of the css function so we can use it when calling css classes
