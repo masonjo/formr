@@ -19,7 +19,7 @@ trait uikit3
     
     public static function uikit3_css($key = '')
     {
-        # bootstrap 5 css classes
+        # uikit3 css classes
         
         $array = [
             'alert-e' => 'uk-alert-danger',
@@ -27,6 +27,7 @@ trait uikit3
             'alert-s' => 'uk-alert-success',
             'alert-w' => 'uk-alert-warning',
             'button' => 'uk-button uk-button-default',
+            'submit' => 'uk-button uk-button-default',
             'button-danger' => 'uk-button uk-button-danger',
             'button-primary' => 'uk-button uk-button-primary',
             'button-secondary' => 'uk-button uk-button-secondary',
